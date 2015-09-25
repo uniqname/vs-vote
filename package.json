@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "gulp js:client && node ./bin/www",
     "debug": "node-debug ./bin/www"
   },
   "dependencies": {

@@ -93,7 +93,7 @@ let currDoc = document.currentScript.ownerDocument,
             <h1 class="title">Weather for <span class="location">South Jordan, UT</span></h1>
             <figure>
                 <div class="icon">
-                    <img src="//uxrepo.com/static/icon-sets/meteo/svg/rain.svg"/>
+                    <img src="/img/rain.svg"/>
                 </div>
                 <figcaption>
                     <p class="temp">
