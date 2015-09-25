@@ -1,0 +1,40 @@
+<style media="screen">
+    .demo {
+        padding-top: 2em;
+    }
+
+    .can-close {
+        max-height: 100vh;
+        transition: height 1s ease-in-out;
+    }
+
+    .is-closed {
+        max-height: 0;
+    }
+</style>
+
+<section class="demo can-close">
+    <a class="do-toggle" href="">open&amp;close</a>
+    <pre><code>
+        
+    </code></pre>
+</section>
+
+<script>
+    var qsa = function (sel, el) {
+            return [].slice.call( (el||window).querySelectorAll(sel) );
+        },
+        toggleClass = function (clss) {
+            return function (item) {
+                item.classList.toggle(clss);
+            }
+        }
+
+    window.addEventListener('DOMContenLoaded', function DCL() {
+        window.addEventListener('click', function (e) {
+
+        });
+
+        window.removeEventListener('DOMContenLoaded', DCL);
+    });
+</script>
