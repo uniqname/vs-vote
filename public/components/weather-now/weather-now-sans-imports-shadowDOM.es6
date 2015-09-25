@@ -1,7 +1,7 @@
 let currDoc = document.currentScript.ownerDocument,
 
     //Maps to pleasant icons for weather status.
-    iconBase = `//uxrepo.com/static/icon-sets/meteo/svg/`,
+    iconBase = `/img/`,
     weatherMap = {
         clear: `${iconBase}sun.svg`,
         rain:  `${iconBase}rain.svg`,
